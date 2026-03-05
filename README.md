@@ -22,6 +22,16 @@ classes:
 
 364 images total
 ## Results Summary with Key Metrics
+
+    BLOOD CELL DETECTION METRICS
+    --------------------------------------------------------------------------------
+    CLASS       |  mAP@50  | mAP@50-95 | PRECISION |  RECALL  |      STATUS      
+    -------------|----------|-----------|-----------|----------|--------------------
+    Platelets   |  0.8892  |  0.4712   |  0.7878   |  0.8251  | Low Localization  
+    RBC         |  0.7876  |  0.5924   |  0.7950   |  0.7330  | High Overlap/Miss 
+    WBC         |  0.9682  |  0.8277   |  0.9704   |  0.9383  | Excellent         
+    OVERALL     |  0.8816  |  0.6305   |  0.8511   |  0.8321  | Solid Performance 
+
 ![Training Curves](./runs/detect/yolo26_blood_cell/results.png)
 ![Confution Matrix](./runs/detect/val/confusion_matrix.png)
 
