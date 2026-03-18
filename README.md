@@ -36,8 +36,8 @@ classes:
 ![Confution Matrix](./runs/detect/val/confusion_matrix.png)
 
 ## Setup instructions
-    git clone <this repo>
-    cd mini-project-4
+    git clone https://github.com/CA-JunPark/mini-project-7.git
+    cd mini-project-7
     python -m venv .venv
     source .venv/Scripts/activate or .venv/bin/activate
     pip install -r requirements.txt
