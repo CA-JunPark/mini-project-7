@@ -51,4 +51,4 @@ Ian: Analysis Requirements
 
 Jun: Technical Requirements
 
-Tohether: Learning Hub Report
+Together: Learning Hub Report
